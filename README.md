@@ -3,18 +3,9 @@
 
 📍 Ukraine (Poltava) · 🌍 Remote (EU/US) · 🎂 1984
 
+🌐 **Professional Profiles** [Upwork](https://upwork.com/freelancers/~017c1964a0af236049?s=1110580765614657536) · [LinkedIn](https://linkedin.com/in/mykola-dolynskyi-b1836b70) · [Drupal](https://drupal.org/u/mykola-dolynskyi) · [GitLab](https://gitlab.com/gospodin-p-zh) · [StackOverflow](https://stackoverflow.com/users/4959237/mykola-mykolayovich-dolynskyi)
 
-🌐 **Professional Profiles**
-[Upwork](https://upwork.com/freelancers/~017c1964a0af236049?s=1110580765614657536) · 
-[LinkedIn](https://linkedin.com/in/mykola-dolynskyi-b1836b70) · 
-[Drupal](https://drupal.org/u/mykola-dolynskyi) · 
-[GitLab](https://gitlab.com/gospodin-p-zh) · 
-[StackOverflow](https://stackoverflow.com/users/4959237/mykola-mykolayovich-dolynskyi)
-
-🧠 **Community & Presence**
-[Daily.dev](https://app.daily.dev/nop1984) · 
-[Djinni](https://djinni.co/q/46c24dcc17) · 
-[DOU](https://dou.ua/users/mykola-dolynskyi)
+🧠 **Community & Presence** [Daily.dev](https://app.daily.dev/nop1984) · [Djinni](https://djinni.co/q/46c24dcc17) · [DOU](https://dou.ua/users/mykola-dolynskyi)
 
 ---
 
@@ -157,10 +148,10 @@ BackstopJS; Playwright; Cypress; PHPUnit; JMeter; Panther
 Unit; Integration; Functional; End-to-End (E2E); Regression; Visual regression; UX/user-flow validation; Contract/API; Smoke; Load/Performance testing
 
 ### Software Architecture & Engineering Practices
-Application Architecture; OOP; IoC; Event-driven; Data-driven UI; SOLID; DDD; DRY; KISS; YAGNI; MACH principles; Refactoring; Reverse Engineering; Code Review; Data Modeling; Web Scraping; Flow and Lifecycle Edgecutting; OpenAPI-driven API design; API-centric and event-driven architectures; HATEOAS; JSONAPI; Modular monoliths and microservices; Headless / Decoupled architectures; Comprehensive legacy system support including safe evolution toward modern industry practices
+Application Architecture; OOP; IoC; GoF Design Patterns; PoEAA; Resilience Patterns; Event-driven; Data-driven UI; SOLID; DDD; DRY; KISS; YAGNI; TDD; MACH principles; Refactoring; Reverse Engineering; Code Review; Data Modeling; Web Scraping; Flow and Lifecycle Edgecutting; OpenAPI-driven API design; API-centric and event-driven architectures; HATEOAS; JSONAPI; Modular monoliths and microservices; Headless / Decoupled architectures; Comprehensive legacy system support including safe evolution toward modern industry practices
 
 ### Team & Process Management
-Owner's Mindset; SDLC Optimization & Workflow Engineering; Advanced Git Flow & Branching Strategy Design; Release Management & Versioning Control; Candidate Vetting and Tech Interviews; Direct Client and C-level Communication; Client Requirements Translation; Technical Roadmapping; Idea-to-Task Planning; Delegation; Team Management; AI Helpers; Live Collaboration; Mentoring; Cross-Functional Leadership; MVP-Driven Development; Technology Leadership
+Owner's Mindset; SDLC Optimization & Workflow Engineering; Advanced Git Flow & Branching Strategy Design; Release Management & Versioning Control; Candidate Vetting and Tech Interviews; Direct Client and C-level Communication; Client Requirements Translation; Technical Roadmapping; Idea-to-Task Planning; Delegation; Team Management; AI Helpers; Agentic Playbook Engineering; Live Collaboration; Mentoring; Cross-Functional Leadership; MVP-Driven Development; Technology Leadership
 
 ### User Experience & Digital Marketing
 UX Design and Optimization; Deep SEO
