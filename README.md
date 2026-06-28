@@ -168,11 +168,11 @@ Nov 2025 – Present
 
 ### Hands-on Software Architect
 Stream Estate, Paris, France
-Nov 2025 – Present 
+Nov 2025 – Present
 
 One of two architects on a greenfield aggregation and deduplication API platform. Jointly owned technical architecture, API contracts, architecture standards, and delivery patterns with the other architect, while independently driving specification and implementation of major backend/platform subsystems.
 
-Delivered an async-first architecture with stage-isolated worker processing, an 8-stage event-driven data lifecycle, zero-downtime Expand/Contract deployment, idempotent backfills, contract-migration guards, writer version checks, and CI safety gates. Built zero-downtime search-index migration with dual-write, versioned indices, bulk indexing, atomic alias switching, and reverse-search alert matching. Designed database partitioning for multi-hundred-GB table growth with partition-aware domain, messaging, repository, and API patterns.
+Delivered an async-first architecture with stage-isolated worker processing, an 8-stage event-driven data lifecycle, idempotent pipeline stall recovery with dual-mode resume/reset, stall-age filtering, and scheduler-safe time-bounded sweeps, zero-downtime Expand/Contract deployment, idempotent backfills, contract-migration guards, writer version checks, and CI safety gates. Built zero-downtime search-index migration with dual-write, versioned indices, bulk indexing, atomic alias switching, and reverse-search alert matching. Designed multi-strategy database partitioning — LIST monthly for high-volume entity tables, RANGE weekly for time-series data ingestions — with partition-aware domain, messaging, repository, and API patterns.
 
 Implemented shared reliability patterns including circuit breakers, feedback-loop prevention, per-destination fault isolation, retry/backoff handling, HMAC-signed webhook delivery, and analytics-backed observability. Built a multi-tier deduplication system using perceptual hashing, Hamming distance, text similarity, geo-proximity scoring, concurrent-write safety, and reconciliation jobs. Contributed a rich domain-driven model with 45+ JSONB-backed value objects and designed API versioning, deprecation/sunset lifecycle, per-version documentation, and CI-based breaking-change detection.
 
