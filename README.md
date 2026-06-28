@@ -161,13 +161,13 @@ UX Design and Optimization; Deep SEO
 ## Employment
 
 ### Full Stack Engineer  
-AgileEngine, Virginia, USA
+AgileEngine, Virginia, USA  
 Nov 2025 – Present 
 
 ---
 
 ### Hands-on Software Architect
-Stream Estate, Paris, France
+Stream Estate, Paris, France  
 Nov 2025 – Present
 
 One of two architects on a greenfield aggregation and deduplication API platform. Jointly owned technical architecture, API contracts, architecture standards, and delivery patterns with the other architect, while independently driving specification and implementation of major backend/platform subsystems.
