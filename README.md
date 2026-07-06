@@ -46,6 +46,7 @@ AI-first engineer, using AI as a force multiplier while maintaining strict contr
 - Implemented backoffice, cashdesk, reporting, and data-exchange systems in enterprise environments.
 - Designed and supported ERP solutions for industrial and manufacturing workflows.
 - Delivered full product cycles: idea → architecture → implementation → CI/CD → deployment → optimization.
+- AI-native SDLC enablement layers: repository-level agent instructions, reusable skills, tool contracts, and MCP-based workflows connecting engineering agents with code, documentation, Jira/Confluence, and GitHub/GitLab workflows.
 - Transitioned from local to international engineering roles (EU, Nordics, Middle East) delivering products across multiple markets.
 
 ---
