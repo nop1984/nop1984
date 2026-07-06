@@ -199,6 +199,20 @@ Implemented shared reliability patterns including circuit breakers, feedback-loo
 Frankly A/C, Copenhagen, Denmark  
 Aug 2025 – Nov 2025  
 
+Full-stack contributor to a production content platform for a major banking client, balancing sustained feature/bug-fix delivery with a self-driven platform-modernization track and two upstream open-source contributions.
+
+- Led an incremental platform-core upgrade for a production content platform serving a major banking client, spanning three major version increments, staged across intermediate branches to de-risk a live deployment with zero unplanned downtime.
+- Designed and built a video-engagement feature from scratch for a Net Promoter Score (NPS) survey flow, including a custom playback/animation layer engineered for pixel-perfect backward compatibility with the legacy implementation it replaced.
+- Integrated a digital-asset-management video platform (dual-provider: cloud media server + enterprise DAM) via a custom parsing/rendering layer, unifying two divergent asset-delivery formats behind a single, consistent player experience.
+- Diagnosed and eliminated false-positive failures in the team's visual-regression testing pipeline, taking it from unreliable to a ~1-in-96 false-positive rate while cutting execution time roughly 8x — turning a pipeline the team had stopped trusting back into a usable release gate.
+- Contributed root-cause fixes upstream to a widely-used open-source content management framework rather than patching around them locally — including a plugin-resolution fallback fix and a front-end event-handling cleanup — both accepted into the framework's core.
+- Diagnosed and resolved a stalled search-indexing pipeline by building a dedicated revalidation service, restoring data freshness for a customer-facing search feature.
+- Delivered a third-party marketing-automation integration (audience entry-point/sign-up flow) with proper error-state handling, plus a cookie-consent compliance fix ensuring required scripts respected user consent state.
+- Fixed a data-entity UX regression (accidental item removal on cancel) in a customer-facing content component, shipped through both staging and production branches.
+- Converted a test-automation dependency from a fragile git-submodule setup to a standard tracked structure, removing a recurring source of CI friction for the whole team.
+- Balanced sustained day-to-day feature and bug-fix delivery with the modernization work, operating across legacy and newly-introduced code in parallel without slowing regular release cadence.
+
+
 ---
 
 ### Technical Lead / Staff Engineer (Full-Stack / Platform)  
