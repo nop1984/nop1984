@@ -1,5 +1,5 @@
 # Mykola Dolynskyi
-**Staff Engineer (Full-Stack / Platform) | Tech Lead | Lead Full Stack Engineer**
+**Staff-level Full-Stack / Platform Engineer | Legacy Modernization | Architecture & Tech Lead**
 
 📍 Ukraine (Poltava) · 🌍 Remote (EU/US) · 🎂 1984
 
@@ -162,7 +162,24 @@ UX Design and Optimization; Deep SEO
 
 ### Full Stack Engineer  
 AgileEngine, Virginia, USA  
-Nov 2025 – Present 
+NDA enterprise SaaS product  
+Nov 2025 – Present  
+
+Contributed to the modernization of a large legacy enterprise SaaS platform, combining regular product delivery with a self-driven architectural modernization track. Worked across legacy application code, modular platform extraction, API/security modernization, cross-database reliability, build/release integration, quality gates, developer tooling, and architecture-as-code / docs-as-code practices expressed as versioned, reviewable engineering artifacts.
+
+- Drove incremental legacy modernization using a Strangler Fig approach, introducing a modern modular application layer inside a legacy monolith without requiring a high-risk rewrite.
+- Self-initiated and de-risked a 12-month roadmap to modernize a multi-tenant production SaaS monolith incrementally — layer by layer, from the foundational backend up to a decoupled frontend and a modern, highly scalable, high-performance architecture — using the Strangler Fig pattern, with each phase shipped behind a feature flag, reversible, and with no downtime.
+- Built a standards-compliant OAuth2 authorization platform with Authorization Code + PKCE, token issuance, refresh, introspection, revocation, JWKS/public-key exposure, key rotation, JWT validation, and legacy permission bridging.
+- Implemented OAuth2 with RFC-level protocol correctness, covering OAuth2 core flows, Bearer token semantics, PKCE enforcement, token introspection, native-app loopback redirect handling, and API lifecycle/deprecation headers — including RFC 6749, RFC 6750, RFC 7636, RFC 7662, RFC 8252, RFC 9745, and RFC 8594.
+- Owned security lifecycle concerns beyond endpoint implementation: key generation, key rotation, public-key exposure, token validation, permission mapping, and compatibility with legacy access-control rules.
+- Designed legacy-to-modern integration seams including shared authentication/session bridges, signed return flows, unified request dispatching, permission mapping, and data-access factories reusing existing platform configuration.
+- Established modern quality gates for the new platform zone: automated tests, static analysis, code-style checks, integration test structure, and a one-command local quality workflow.
+- Improved cross-database reliability across multiple SQL engines, including migration safety, type compatibility, idempotent schema changes, query correctness, and internal migration guidance.
+- Integrated the modernized platform layer into the existing build and release lifecycle, aligning packaging, validation, and deployment constraints with the legacy product environment.
+- Delivered sustained product work alongside modernization: API extensions, UI/i18n fixes, analytics/reporting improvements, import workflow fixes, AI-assisted feature workflow fixes, export improvements, and defect resolution.
+- Treated architecture as a versioned engineering artifact: maintained C4-style diagrams, architecture records, migration rules, endpoint QA guides, lifecycle/deprecation notes, and implementation plans alongside the codebase.
+- Created engineering “paved roads” for the team: local quality gates, repeatable validation workflows, coding conventions, migration guidance, and reusable patterns that reduce review friction and make safer delivery the default path.
+- Automated repetitive developer workflow steps around branch preparation, build metadata, and local validation, reducing manual error in a legacy delivery process.
 
 ---
 
@@ -186,7 +203,7 @@ Aug 2025 – Nov 2025
 
 ### Technical Lead / Staff Engineer (Full-Stack / Platform)  
 Youpal Group, Stockholm, Sweden  
-May 2022 – Present  
+May 2022 – May 2025  
 
 #### Some projects I was involved in
 - YouCloud – Google Workspace alternative (chat, video, email, hosting, website builder)
