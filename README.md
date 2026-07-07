@@ -207,10 +207,22 @@ UX Design and Optimization; Deep SEO
 
 ## Employment
 
+### Hands-on Software Architect
+Stream Estate, Paris, France  
+Nov 2025 – Present
+
+One of two architects on a greenfield aggregation and deduplication API platform. Jointly owned technical architecture, API contracts, architecture standards, and delivery patterns with the other architect, while independently driving specification and implementation of major backend/platform subsystems.
+
+Delivered an async-first architecture with stage-isolated worker processing, an 8-stage event-driven data lifecycle, idempotent pipeline stall recovery with dual-mode resume/reset, stall-age filtering, and scheduler-safe time-bounded sweeps, zero-downtime Expand/Contract deployment, idempotent backfills, contract-migration guards, writer version checks, and CI safety gates. Built zero-downtime search-index migration with dual-write, versioned indices, bulk indexing, atomic alias switching, and reverse-search alert matching. Designed multi-strategy database partitioning — LIST monthly for high-volume entity tables, RANGE weekly for time-series data ingestions — with partition-aware domain, messaging, repository, and API patterns.
+
+Implemented shared reliability patterns including circuit breakers, feedback-loop prevention, per-destination fault isolation, retry/backoff handling, HMAC-signed webhook delivery, and analytics-backed observability. Built a multi-tier deduplication system using perceptual hashing, Hamming distance, text similarity, geo-proximity scoring, concurrent-write safety, and reconciliation jobs. Contributed a rich domain-driven model with 45+ JSONB-backed value objects and designed API versioning, deprecation/sunset lifecycle, per-version documentation, and CI-based breaking-change detection.
+
+---
+
 ### Full Stack Engineer  
 AgileEngine, Virginia, USA  
 NDA enterprise SaaS product  
-Nov 2025 – Present  
+Nov 2025 – July 2026  
 
 Contributed to the modernization of a large legacy enterprise SaaS platform, combining regular product delivery with a self-driven architectural modernization track. Worked across legacy application code, modular platform extraction, API/security modernization, cross-database reliability, build/release integration, quality gates, developer tooling, and architecture-as-code / docs-as-code practices expressed as versioned, reviewable engineering artifacts.
 
@@ -227,18 +239,6 @@ Contributed to the modernization of a large legacy enterprise SaaS platform, com
 - Treated architecture as a versioned engineering artifact: maintained C4-style diagrams, architecture records, migration rules, endpoint QA guides, lifecycle/deprecation notes, and implementation plans alongside the codebase.
 - Created engineering “paved roads” for the team: local quality gates, repeatable validation workflows, coding conventions, migration guidance, and reusable patterns that reduce review friction and make safer delivery the default path.
 - Automated repetitive developer workflow steps around branch preparation, build metadata, and local validation, reducing manual error in a legacy delivery process.
-
----
-
-### Hands-on Software Architect
-Stream Estate, Paris, France  
-Nov 2025 – Present
-
-One of two architects on a greenfield aggregation and deduplication API platform. Jointly owned technical architecture, API contracts, architecture standards, and delivery patterns with the other architect, while independently driving specification and implementation of major backend/platform subsystems.
-
-Delivered an async-first architecture with stage-isolated worker processing, an 8-stage event-driven data lifecycle, idempotent pipeline stall recovery with dual-mode resume/reset, stall-age filtering, and scheduler-safe time-bounded sweeps, zero-downtime Expand/Contract deployment, idempotent backfills, contract-migration guards, writer version checks, and CI safety gates. Built zero-downtime search-index migration with dual-write, versioned indices, bulk indexing, atomic alias switching, and reverse-search alert matching. Designed multi-strategy database partitioning — LIST monthly for high-volume entity tables, RANGE weekly for time-series data ingestions — with partition-aware domain, messaging, repository, and API patterns.
-
-Implemented shared reliability patterns including circuit breakers, feedback-loop prevention, per-destination fault isolation, retry/backoff handling, HMAC-signed webhook delivery, and analytics-backed observability. Built a multi-tier deduplication system using perceptual hashing, Hamming distance, text similarity, geo-proximity scoring, concurrent-write safety, and reconciliation jobs. Contributed a rich domain-driven model with 45+ JSONB-backed value objects and designed API versioning, deprecation/sunset lifecycle, per-version documentation, and CI-based breaking-change detection.
 
 ---
 
