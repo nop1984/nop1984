@@ -14,7 +14,7 @@ Senior Full-Stack / Platform Engineer and Tech Lead / Architect-Implementer with
 
 Operating at Staff-level scope across architecture, hands-on engineering, and cross-team technical leadership.
 
-A cross-role, cross-stack engineer combining deep execution with system-level thinking — consistently delivering high-impact results, owning systems end-to-end from code to infrastructure, CI/CD, and production operations, and ensuring features deliver real customer value, are adopted, and fit naturally within the product.
+A cross-role, cross-stack engineer combining deep execution with product thinking and system-level architecture — consistently delivering high-impact results, owning systems end-to-end from code to infrastructure, CI/CD, and production operations, and ensuring features deliver real customer value, are adopted, and fit naturally within the product.
 
 Specialize in rescuing, modernizing, and scaling complex brownfield or legacy systems, applying incremental modernization strategies (e.g., Strangler Fig pattern) and evolving them into maintainable, high-performance architectures using modular monolith, microservices, and event-driven approaches.
 
