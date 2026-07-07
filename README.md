@@ -434,7 +434,8 @@ Live collaboration
 - Job Type: long-term, remote  
 - Location: Ukraine  
 - Availability: 09:00–15:00, 17:00–21:00 CET  
-- Hourly Rate: $40/hour  
+- Hourly Rate: from $40/hour
+- Monthly equivalent: from $6,400/month full-time
 - Notice Period: 1 month  
 
 ---
