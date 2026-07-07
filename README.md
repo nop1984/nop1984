@@ -1,5 +1,5 @@
 # Mykola Dolynskyi
-**Staff-level Full-Stack / Platform Engineer | Legacy Modernization | Architecture & Tech Lead**
+**Staff-level Full-Stack / Platform Engineer | Legacy Modernization | Architecture & Tech Lead | AI-Native SDLC**
 
 📍 Ukraine (Poltava) · 🌍 Remote (EU/US) · 🎂 1984
 
@@ -48,6 +48,52 @@ AI-first engineer, using AI as a force multiplier while maintaining strict contr
 - Delivered full product cycles: idea → architecture → implementation → CI/CD → deployment → optimization.
 - AI-native SDLC enablement layers: repository-level agent instructions, reusable skills, tool contracts, and MCP-based workflows connecting engineering agents with code, documentation, Jira/Confluence, and GitHub/GitLab workflows.
 - Transitioned from local to international engineering roles (EU, Nordics, Middle East) delivering products across multiple markets.
+
+---
+
+## AI-Native SDLC — Closed-Loop Agentic Delivery
+
+Designing the governed infrastructure that lets AI agents operate across the full
+delivery lifecycle — idea to production feedback — as repeatable, traceable
+practice, not ad-hoc prompting.
+
+- **Closed-loop, spec-driven pipeline**: idea/goal → structured stack/pattern
+  comparison matrix → architecture vetting → single PRD → ticket/milestone
+  decomposition → agent-assisted implementation → PR/MR + commit summaries →
+  discoveries bubbled back to backlog *and* architecture decisions.
+- **Documentation generated concurrently with code, not backfilled**: architecture
+  docs reflect actual implementation, and user/ops manuals are produced in the
+  same pass as the change — not written after the fact from memory.
+- **Agent-ready repositories**: `AGENTS.md`, composable skills, and tool contracts
+  encode review rules, testing/DB/i18n policy, and human-approval checkpoints —
+  agents operate inside guardrails, not around them.
+- **MCP-driven integration**: agents read/write Jira and Confluence, open and
+  update PRs on GitHub/GitLab, and query production logs/metrics directly —
+  closing the loop without manual hand-offs.
+- **Forward requirements traceability**: acceptance criteria trace forward into
+  implementation checklists and PR/commit summaries, with root cause and impact
+  documented back to the originating ticket.
+- **Production-outcome measurement**: chronological investigation docs built from
+  logs and metrics show whether a shipped change actually moved the goal metric —
+  turning deployment into a measured hypothesis, not a finish line.
+- **Governed autonomy**: human-approval gates before destructive/high-risk
+  actions, isolated agent workspaces, and policy skills that block non-compliant
+  changes before they're staged.
+
+**Currently exploring:**
+
+- **Requirements traceability at the process level, not just the tooling level** —
+  wiring MCP into Jira/Confluence for backward, checklist-style cross-verification
+  (including test coverage back to acceptance criteria) is the easy part; the
+  harder problem is organizational: over-sliced, ticket-driven Scrum fragments a
+  PRD into tickets that lose the thread back to original intent. Working the
+  traceability problem from that angle rather than treating it as a pure
+  integration task.
+- **Cost and cycle-time instrumentation for the SDLC itself** — token/cost per
+  ticket and ticket-to-merge cycle time, via per-agent usage telemetry (OTel),
+  feeding the same observability stack used for production metrics — so delivery
+  efficiency and production impact sit side by side.
+
 
 ---
 
