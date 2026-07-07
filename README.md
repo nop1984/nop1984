@@ -266,6 +266,8 @@ Full-stack contributor to a production content platform for a major banking clie
 Youpal Group, Stockholm, Sweden  
 May 2022 – May 2025  
 
+Operated as hands-on Lead Developer, Architect, and DevOps engineer simultaneously — deploying and tuning infrastructure, making architecture decisions, and coordinating delivery — on every concurrent project except Talent App, rather than a coordination-only role. On two of these engagements (Ajlan, Transcom), personally led a full project turnaround: both were at-risk, with active delivery stalled and little more than the contract still in place, requiring the client relationship, delivery process, team composition, and day-to-day workflow to be rebuilt from the ground up alongside the technical stabilization work.
+
 #### Some projects I was involved in
 - YouCloud – Google Workspace alternative (chat, video, email, hosting, website builder)
 - Ajlan Project – B2B/B2C store with SalesBuzz integration
@@ -273,6 +275,56 @@ May 2022 – May 2025
 - Youmedico – telemedicine platform (chat + video)
 - DoktorsJouren.se – jobs board for medical specialists
 - Youpal Talent – developer platform with time tracking and predictive tools
+
+#### Transcom — Decoupled Content Platform (Backend + Frontend + Infrastructure)
+
+- Took over an at-risk client engagement where active delivery had stalled — personally rebuilt the client relationship, delivery process, team composition, and day-to-day workflow, turning it back into an actively delivering project.
+- Owned end-to-end SEO and multi-domain routing infrastructure for a decoupled content platform spanning 9+ languages and multiple country domains, including per-domain sitemap generation, hreflang configuration, and locale-aware search indexing.
+- Migrated the company's global careers/job-board vertical onto a dedicated subdomain and integrated an external applicant-tracking system, continuing to extend this area through the final months of the engagement.
+- Led a multi-language content migration (structured markup, nested media, region-prefixed routing) for the company's blog/insights vertical.
+- Solo-designed and built a from-scratch multi-service containerized deployment (reverse proxy, application server, database, cache, search engine, plus the decoupled front end) for a legacy application that had never been containerized, including private-repository build pipelines and per-service health checks.
+- Delivered hands-on implementation on a modern component-based front end across 500+ files, on a team of 20+ engineers — ranking among the top contributors by volume while also reconciling multiple long-lived feature branches from other engineers into shared production branches for regional-expansion initiatives.
+- Owned the environment configuration-sync and release-reconciliation process end-to-end, resolving drift between production and repository state as a recurring responsibility.
+- Established code-quality gates (static analysis, CI/CD pipeline) as the first action on the codebase, before any feature work began.
+- Delivered numerous third-party integrations (marketing automation, spam protection, analytics/tag management), including a hand-authored compatibility patch for a deprecated third-party API.
+
+#### Youmedico — Telemedicine Platform (Video + Chat)
+
+- Hardened the security of the platform's video-consultation join flow, removing hardcoded configuration and introducing token expiration and room-access restriction on the patient appointment-join path.
+- Designed and built the proof-of-concept for the platform's patient/doctor chat feature and evolved it into production scheduled-visit chat functionality.
+- Architected a reusable encryption abstraction applied consistently across multiple data-entity types, replacing ad-hoc per-entity encryption of protected health information.
+- Extended the platform's appointment-booking and doctor-availability API surface, including a public patient self-registration endpoint and a custom authentication flow.
+- Established the project's code-quality/CI gate on day one and later led a full CI/CD restructure to support a server migration.
+- Operated as a concentrated subsystem owner within a large multi-engineer team, authoring roughly half of all changes in the chat and patient-services modules while resolving cross-branch integration via merges into shared staging/production branches.
+
+#### Ajlan — B2B/B2C Commerce Platform (Stabilization & Third-Party Integration)
+
+- Took over a second stalled client engagement kept alive only by a standing contract — personally rebuilt the client relationship, delivery process, team composition, and day-to-day workflow alongside the technical stabilization work.
+- Joined a live B2B/B2C commerce platform mid-project to stabilize it through launch, becoming the platform's final active contributor after the original build team rolled off.
+- Owned a real-time ERP/CRM pricing integration, resolving per-customer pricing tiers live from an external business system through an asynchronous sync pipeline.
+- Diagnosed and fixed a production order-versioning race condition in the checkout flow, alongside integration work with a regional payment gateway.
+- Built a credit-controlled B2B ordering workflow — configurable approval thresholds, an order approve/settle process, and account-level credit visibility — distinguishing business-account purchasing from standard consumer checkout on the same platform.
+- Built multi-user business-account management features (representative access control, account suspension, support escalation) for B2B customers.
+- Led a full CI/CD pipeline rebuild and a major framework compatibility upgrade alongside the stabilization effort.
+
+#### YouCloud — Platform Admin Tooling & Theming
+
+- Customized the platform's administrative interface theme and built a supporting icon-menu module for it.
+- Designed and built a standalone configuration-management tool giving administrators a UI to edit structured configuration values directly, with cloud-storage-backed persistence.
+
+#### Youpal Talent / Internal Business Platform
+
+- Contributed to an internal multi-portal business platform — time-tracking and predictive tooling for engineering teams, plus admin/client/partner portals — built on a Python backend with dedicated frontends per audience.
+- Established code-quality and CI/CD gates across the platform's backend and multiple frontend portals as an early, repeated action on each codebase.
+
+#### Additional Client Delivery
+
+- Delivered a marketing landing site end-to-end for an additional client, including a login/registration flow and ongoing content and mobile-responsiveness iterations.
+
+#### Open-Source Contributions
+
+- Contributed a fix upstream to a widely-used marketing-integration module, adding compatibility with decoupled/headless front-end architectures — released to the public module ecosystem rather than kept as a local patch.
+- Built and shipped a major feature release (survey functionality) for a public quiz-building module, sustaining the contribution across two development cycles two years apart.
 
 ---
 
